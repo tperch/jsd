@@ -40,7 +40,7 @@ var titleTime;
 document.addEventListener('visibilitychange', function() {
     if (document.hidden) {
         $('[rel="icon"]').attr('href', "/img/favicon.ico");
-        document.title = '(つェ⊂) 我藏好了哦~~';
+        document.title = '(つェ⊂) 崩溃了~~';
         clearTimeout(titleTime);
     } else {
         $('[rel="icon"]').attr('href', "/img/favicon.ico");
@@ -102,5 +102,5 @@ qipao()
 
 // 设置页脚博主
 $(document).ready(function(e) {
-    $('.copyright').html('©2020 <i style="color:#FF6A6A;animation: announ_animation 0.8s linear infinite;" class="fa fa-heartbeat"></i> Lete乐特');
+    $('.copyright').html('©2020 <i style="color:#FF6A6A;animation: announ_animation 0.8s linear infinite;" class="fa fa-heartbeat"></i> 栖枝perch');
 });
